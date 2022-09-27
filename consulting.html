@@ -14,17 +14,25 @@ body {font-family: "Lato", sans-serif}
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-       <div class="w3-dropdown-hover">
-      <button class="w3-padding-large w3-button" title="resources">Consulting <i class="fa fa-caret-down"></i></button>     
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-left" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+       <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Consulting">Consulting <i class="fa fa-caret-down"></i></button>     
        <div class="w3-dropdown-content w3-bar-block w3-card-4">
 	 <a href="#Services" class="w3-bar-item w3-button">Services</a>
 	<a href="#Projects" class="w3-bar-item w3-button">Projects</a>
 	<a href="#Inquiries" class="w3-bar-item w3-button">Inquiries</a>
       </div>
       </div>
-       <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Back to main page</a>
+       <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Back to academic page</a>
   </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#Services" class="w3-bar-item w3-button w3-padding-large">Services</a>
+  <a href="#Projects" class="w3-bar-item w3-button w3-padding-large">Projects</a>
+  <a href="#Inquiries" class="w3-bar-item w3-button w3-padding-large">Inquiries</a>
+  <a href="#Back to main page" class="w3-bar-item w3-button w3-padding-large">Back to main page</a>
 </div>
 
 <!-- Page content -->
@@ -43,17 +51,17 @@ body {font-family: "Lato", sans-serif}
     </div>
     </div>
     </div>
-     <div class="w3-light-grey id="publications">
-    <div class="w3-container w3-content w3-padding-16" style="max-width:800px" id="about">
+     <div class="w3-light-grey" id="Services">
+    <div class="w3-container w3-content w3-padding-16" style="max-width:800px">
     <h3 class="w3-wide w3-center">SERVICES</h3>
       <p class="w3-justify"> I am registered freelancer in Germany and occasionally take on consulting projects involving qualitative and/or quantitative research in environmental, ecological, or cultural anthropology. <br><br>
 
-      My primary areas of expertise include Indigenous food systems, food security and the North American Arctic. I am most interested in contributing to projects that align with the focus of my research group (community-based research on environment, food, culture and well-being in Inuit communities).<br><br>
+      My primary areas of expertise include Indigenous food systems, food security and the North American Arctic. I am most interested in contributing to projects that are Inuit-led and/or that align with the focus of my research group (community-based research on environment, food, culture and well-being in Inuit communities).<br><br>
 
       Since 2009 I have also occasionally worked as an academic writing editor, in particular with French and German scholars writing in English.</p>
     </div>
      <div class="w3-white id="publications">
-     <div class="w3-container w3-content w3-padding-48" style="max-width:800px" id="resources">
+     <div class="w3-container w3-content w3-padding-48" style="max-width:800px" id="Projects">
     <h3 class="w3-wide w3-center">PROJECT EXAMPLES</h3>
                <p class="w3-opacity w3-center" id="Reports"><i>Carbon pricing in the Inuvialuit Settlement Region</i></p>
        <p class="w3-justify"> In 2021 I produced a report for the Inuvialuit Regional Council on the potential impacts of Canadian carbon pricing on the hunting, fishing, and trapping economy. This report amalgamates disparate data sources and develops statistical methods to quantify the carbon inputs and savings of the Inuvialuit subsistence economy. To my knowledge, this is the first attempt to quantify the carbon impact of any Indigenous hunting system. The report can be <a href="https://irc.inuvialuit.com/sites/default/files/HFT_carbon_report.pdf">downloaded</a> from the IRC webpage. 
@@ -63,7 +71,7 @@ body {font-family: "Lato", sans-serif}
        <p class="w3-justify"><i>Archaeological book manuscript:</i> Morin, E. 2012. <a href="https://www.cambridge.org/core/books/reassessing-paleolithic-subsistence/BF6B61DB71DEF8179C63901E6B6D502B">Reassessing Paleolithic Subsistence: The Neandertal and Modern Human Foragers of Saint-C&eacutesaire.</a> Cambridge University Press.</p>
 </div>
 
-<div class="w3-light-grey" id="inquiries">
+<div class="w3-light-grey" id="Inquiries">
     <div class="w3-container w3-content w3-padding-48" style="max-width:800px">
       <h3 class="w3-wide w3-center">INQUIRIES</h3>
       <p class="w3-center">
