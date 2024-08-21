@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <title>Elspeth Ready</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,10 +21,8 @@ body {font-family: "Lato", sans-serif}
 	 <a href="#About" class="w3-bar-item w3-button">About</a>
 	 <a href="#Consulting" class="w3-bar-item w3-button">Consulting Services</a>
 	 <a href="#Research" class="w3-bar-item w3-button">Academic Research</a>
-	 <a href="#Media" class="w3-bar-item w3-button">Media</a>
-	 <a href="#Reports" class="w3-bar-item w3-button">Community and policy reports</a>
-	 <a href="#Slides" class="w3-bar-item w3-button">Teaching</a>
-         <a href="#Data" class="w3-bar-item w3-button">Datasets and code</a>
+	 <a href="#Reports" class="w3-bar-item w3-button">Community reports and media</a>
+	 <a href="#Opsci" class="w3-bar-item w3-button">Teaching and code repositories</a>
  	 <a href="#Publications" class="w3-bar-item w3-button">Publications</a>       
 	 <a href="#Contact" class="w3-bar-item w3-button">Contact</a>
       </div>
@@ -33,14 +31,12 @@ body {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Navbar on small screens -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px" onclick="myFunction()">
   	<a href="#About" class="w3-bar-item w3-button w3-padding-large">About</a>
         <a href="#Consulting" class="w3-bar-item w3-button w3-padding-large">Consulting</a>
         <a href="#Research" class="w3-bar-item w3-button w3-padding-large">Academic Research</a>
-        <a href="#Media" class="w3-bar-item w3-button w3-padding-large">Media</a>
-    	<a href="#Reports" class="w3-bar-item w3-button w3-padding-large">Community and policy reports</a>
-        <a href="#Slides" class="w3-bar-item w3-button w3-padding-large">Teaching</a>
-        <a href="#Data" class="w3-bar-item w3-button w3-padding-large">Datasets and code</a>
+    	<a href="#Reports" class="w3-bar-item w3-button w3-padding-large">Community reports and media</a>
+        <a href="#Opsci" class="w3-bar-item w3-button w3-padding-large">Teaching and code repositories</a>
         <a href="#Publications" class="w3-bar-item w3-button w3-padding-large">Publications</a>
         <a href="#Contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>  
 </div>
@@ -51,55 +47,50 @@ body {font-family: "Lato", sans-serif}
   <!-- About section -->
   <div class="w3-container w3-content w3-padding-32" style="max-width:800px" id="About">
     <div class="w3-third">
-    <img src="me_crop2.jpg" class="w3-round w3-padding-bottom-8" alt="Random Name" style="width:100%; border-radius:10%">
+    <img src="me_crop2.jpg" class="w3-round w3-padding-bottom-8" alt="Elspeth" style="width:100%; border-radius:10%">
     </div>
     <div class="w3-twothird w3-center w3-padding-48">
       <h1 class="w3-wide">ELSPETH READY</h1>
       <p class="w3-wide">FREELANCE DATA SCIENTIST AND ANTHROPOLOGIST</p>
       <div class="w3-panel w3-margin-left w3-margin-right w3-large">
-         <a href="mailto: elspethready@gmail.com" style="text-decoration: none" <i class="fa fa-envelope" style="width:30px"> </a>
-	 <a href="https://twitter.com/elspethready" style="text-decoration: none"<i class="fa fa-twitter w3-hover-opacity"></i> </a>
-         <!--<a href="https://www.linkedin.com/in/elspeth-ready-068a96bb" style="text-decoration: none" <i class="fa fa-linkedin w3-hover-opacity"></i></a><-->
-         <a href="https://github.com/elspethr" style="text-decoration: none" <i class="fa fa-github w3-hover-opacity"></i></a><br> 
+         <a href="mailto:elspethready@gmail.com" class="fa fa-envelope w3-hover-opacity" style="text-decoration:none; width:25px"></a>
+	 <a href="https://twitter.com/elspethready" style="text-decoration:none; width:30px" class="fa fa-twitter w3-hover-opacity"></a>
+         <a href="https://github.com/elspethr" style="text-decoration:none; width:30px" class="fa fa-github w3-hover-opacity"></a><br>
     </div>
-       <a href="Ready_CV.pdf">Curriculum Vitae</a></p>
-    </div>
+       <a href="Ready_CV.pdf" class="w3-hover-opacity">Curriculum Vitae</a>
     </div>
     </div>
     </div>
 
       <!-- Header image -->
   <div class="w3-display-container w3-center">
-    <img src="caribou.jpg" style="width:100%">
-    <!--<div class="w3-display-topmiddle w3-container w3-text-black w3-padding-48">
-      </div>
-    </div> -->
-  </div>
+    <img src="caribou.jpg" alt="Small troupe of caribou swimming against a sunset" style="width:100%">
+    </div>
     
-    <div class="w3-light-grey">
-    <div class="w3-container w3-content w3-padding-32" style="max-width:800px" id="Consulting">
+    <div class="w3-light-grey" id="Consulting">
+    <div class="w3-container w3-content w3-padding-32" style="max-width:800px">
     <h3 class="w3-wide w3-center">CONSULTING SERVICES</h3>
       <p class="w3-justify">
       I provide economic and anthropological research services including research design, data collection/interviewing, qualitative data analysis, statistical analysis/modeling, and grant and report writing. I have particular expertise in the areas of sustainability/climate change, Indigenous food systems, and food security, especially in the Canadian Arctic. <!--I bring 12 years of interdisciplinary experience at world-class research institutions, and over 10 years of working collaboratively with Indigenous communities, to deliver world-leading quality research in an accessible and --> <br>
       </p>
       <p class="w3-center">
-    SEND AN INQUIRY:  <a href="mailto: elspethready@gmail.com" style="text-decoration: none" <i class="fa fa-envelope" style="width:30px"></a></p>
+      <a href="mailto:elspethready@gmail.com" style="width:30px" class="w3-hover-opacity">SEND AN INQUIRY</a></p>
       
       <p class="w3-opacity w3-center"><i>Project example</i></p>
       <p class="w3-justify">
-      <i>Quantifying the carbon savings of Inuit harvesting</i>. In 2021 I produced a report for the Inuvialuit Regional Council on the potential impacts of Canadian carbon pricing on the hunting, fishing, and trapping economy. This involved amalgamated disparate data sources and developing statistical methods to quantify the carbon inputs required by and the cost and carbon savings produced by the Inuvialuit Traditional Economy. We found that replacing traditional foods with market foods in the Inuvialuit Settlement Region would cost of $3.1 million annually and incur over 1000 tonnes of carbon emissions. The original report can be <a href="https://irc.inuvialuit.com/wp-content/uploads/2023/10/HFT_carbon_report.pdf">downloaded</a> from the IRC webpage, and the results have also been <a href="https://www.pnas.org/doi/10.1073/pnas.2317686121">published in PNAS</a>, one of the world's leading scientific journals.<br><br>
+      <i>Quantifying the carbon savings of Inuit harvesting</i>. In 2021 I produced a report for the Inuvialuit Regional Council on the potential impacts of Canadian carbon pricing on the hunting, fishing, and trapping economy. This involved amalgamated disparate data sources and developing statistical methods to quantify the carbon inputs required by and the cost and carbon savings produced by the Inuvialuit Traditional Economy. We found that replacing traditional foods with market foods in the Inuvialuit Settlement Region would cost of $3.1 million annually and incur over 1000 tonnes of carbon emissions. The original report can be <a href="https://irc.inuvialuit.com/wp-content/uploads/2023/10/HFT_carbon_report.pdf" class="w3-hover-opacity">downloaded</a> from the IRC webpage, and the results have also been <a href="https://www.pnas.org/doi/10.1073/pnas.2317686121" class="w3-hover-opacity">published in PNAS</a>, one of the world's leading scientific journals.<br><br>
       
 
-     <p class="w3-opacity w3-center""><i>Rapid, high-quality copy-editing</i></p>
+     <p class="w3-opacity w3-center"><i>Rapid, high-quality copy-editing</i></p>
      <p class="w3-justify">
      I also occasionally take on copy-editing projects, in particular for French- and German-speaking scholars writing in English.<br><br>
-     <i>Medical research article:</i> Platz, M. R., Stöbe, S., Baum, P., & Metze, M. 2020. <a href="https://academic.oup.com/ehjcr/article/4/6/1/6006368">Case report: isolated pulmonary valve endocarditis in a 39-year-old patient with intravenous drug abuse.</a> <i>European Heart Journal Case Reports</i> 4 (6): 1.<br><br>
-     <i>Archaeological book manuscript:</i> Morin, E. 2012. <a href="https://www.cambridge.org/core/books/reassessing-paleolithic-subsistence/BF6B61DB71DEF8179C63901E6B6D502B">Reassessing Paleolithic Subsistence: The Neandertal and Modern Human Foragers of Saint-C&eacutesaire.</a> Cambridge University Press.</p>
+     <i>Medical research article:</i> Platz, M. R., Stöbe, S., Baum, P., & Metze, M. 2020. <a href="https://academic.oup.com/ehjcr/article/4/6/1/6006368" class="w3-hover-opacity">Case report: isolated pulmonary valve endocarditis in a 39-year-old patient with intravenous drug abuse.</a> <i>European Heart Journal Case Reports</i> 4 (6): 1.<br><br>
+     <i>Archaeological book manuscript:</i> Morin, E. 2012. <a href="https://www.cambridge.org/core/books/reassessing-paleolithic-subsistence/BF6B61DB71DEF8179C63901E6B6D502B" class="w3-hover-opacity">Reassessing Paleolithic Subsistence: The Neandertal and Modern Human Foragers of Saint-C&eacute;saire.</a> Cambridge University Press.</p>
     </div>
   </div>
 
-    <div class="w3-white">
-    <div class="w3-container w3-content w3-padding-32" style="max-width:800px" id="About">
+    <div class="w3-white" id="Research">
+    <div class="w3-container w3-content w3-padding-32" style="max-width:800px">
     <h3 class="w3-wide w3-center">ACADEMIC RESEARCH</h3>
     <p class="w3-justify">   
     I am an anthropologist with broad interests that originate in questions about cultural adaptation to climate change. My <a href="#Publications">published work</a> spans sustainability science, cultural and biological anthropology, archaeology, psychology, and sociology. I use a variety of quantitative and qualitative data collection and analysis approaches ranging from network analysis to grounded theory. I am currently a senior researcher in the Department of Human Behavior, Ecology and Culture at the Max Planck Institute for Evolutionary Anthropology.<br><br>
@@ -107,13 +98,16 @@ body {font-family: "Lato", sans-serif}
      My main focus is community-based research in the Canadian Arctic, working with the communities of Kangiqsujuaq and Ulukhaktok (with <a href="https://people.clas.ufl.edu/pcollings/">Peter Collings</a>). Our current project, <a href="https://sanguatsiniq.github.io/">Sanguatsiniq</a>, focuses on Inuit concepts of stress, stress management and its social aspects, as well as on food security and the interaction of the cash and subsistence economies in Arctic settlements. I have been working in Kangiqsujuaq since 2011 and have spent over 24 months living in the community. I also have ongoing research collaborations focused on evolutionary-ecological theory and climate change adaptation, zooarchaeology and Neandertal foraging behaviours, and network data collection and analysis methods.</p>
     </div>
   </div>
-
-
   
   <!-- Applied work, code, teaching... -->
-  <div class="w3-light-grey id="stuffs">
-    <div class="w3-container w3-content w3-padding-32" style="max-width:800px" id="resources">
-    <h3 class="w3-wide w3-center">LINKS AND RESOURCES</h3>
+  <div class="w3-light-grey" id="Reports">
+    <div class="w3-container w3-content w3-padding-32" style="max-width:800px">
+      <h3 class="w3-wide w3-center">COMMUNITY REPORTS AND MEDIA</h3>
+
+     <p class="w3-opacity w3-center"><i>Community and policy reports</i></p>
+     <p class="w3-center">
+
+      See the <a href="https://sanguatsiniq.github.io/">Sanguatsiniq</a> webpage.<br><br></p>
 
            <p class="w3-opacity w3-center" id="Media"><i>Media coverage</i></p>
       <p class="w3-justify">
@@ -126,13 +120,14 @@ This <a href="Reach_blogpost.pdf">blog post</a> reflects on the double-edged swo
 <a href="https://theconversation.com/shades-of-green-what-gig-economy-workers-can-learn-from-the-success-of-romance-writers-88379">What can gig economy workers learn from romance writers?</a> A report by Christine Larson on our analysis of romance writers' advice networks.<br><br>
 
       <a href="https://www.macleans.ca/society/letters-donald-trump-is-as-shocked-as-we-are/">Letter to the Editor</a>, Maclean's magazine (November 2016)<br><br></p>
+          </div>
+  </div>
 
-     <p class="w3-opacity w3-center" id="Reports"><i>Community and policy reports</i></p>
-     <p class="w3-center">
-
-     See the <a href="https://sanguatsiniq.github.io/">Sanguatsiniq</a> webpage.<br><br></p> 
-      
-    <p class="w3-opacity w3-center w3-padding-36" id="Slides"><i>Teaching materials</i></p>
+    <div class="w3-white" id="Opsci">
+    <div class="w3-container w3-content w3-padding-32" style="max-width:800px">
+    <h3 class="w3-wide w3-center">TEACHING AND CODE</h3>
+    <p class="w3-justify">
+    <p class="w3-opacity w3-center w3-padding-36"><i>Teaching materials</i></p>
     <p class="w3-justify">
 
      <a href="BIO216_syllabus.pdf">Syllabus</a> for BIO 216 (Human Behavior, Ecology and Culture), University of Leipzig, Fall/Winter 2022-2023.<br><br>
@@ -160,7 +155,7 @@ This <a href="Reach_blogpost.pdf">blog post</a> reflects on the double-edged swo
   </div>
 
   <!-- Publications -->
-  <div class="w3-white" id="Publications">
+  <div class="w3-light-grey" id="Publications">
     <div class="w3-container w3-content w3-padding-32" style="max-width:800px">
       <h3 class="w3-wide w3-center">PUBLICATIONS</h3>
       <p class="w3-opacity w3-center"><i>Arctic work</i></p>
@@ -170,10 +165,10 @@ This <a href="Reach_blogpost.pdf">blog post</a> reflects on the double-edged swo
       Hillemann, F., Beheim, B. and Ready, E. 2023. <a href="https://royalsocietypublishing.org/doi/full/10.1098/rstb.2022.0395">Socio-economic predictors of Inuit hunting
 choices and their implications for climate change adaptation.</a> <i>Philosophical Transactions of the Royal Society B</i>  378: 20220395.<br><br>
       
-      Collings, P., Ready, E., and Medina-Ramírez, O., 2023. <a href=https://journals.sagepub.com/doi/full/10.1177/00220221231155105">An ethnographic
+      Collings, P., Ready, E., and Medina-Ramírez, O., 2023. <a href="https://journals.sagepub.com/doi/full/10.1177/00220221231155105">An ethnographic
 model of stress and stress management in two Canadian Inuit communities.</a> <i>Journal of Cross-Cultural Psychology</i> 54(3)  407--428.<br><br>
       
-      Ready, E. 2022. <a href="\href{https://www.transcript-publishing.com/978-3-8376-6099-9/scale-matters/"> <i>Ilagiit</i>, parts of each other: Scale and Inuit social relations.</a> In T. Widlok and M. Dores Cruz (Eds.) Scale Matters: The Quality of Quantity in Human Social Relations, pp. 155-178. Transcript Verlag. <br><br>
+      Ready, E. 2022. <a href="https://www.transcript-publishing.com/978-3-8376-6099-9/scale-matters/"> <i>Ilagiit</i>, parts of each other: Scale and Inuit social relations.</a> In T. Widlok and M. Dores Cruz (Eds.) Scale Matters: The Quality of Quantity in Human Social Relations, pp. 155-178. Transcript Verlag. <br><br>
 
       Ready, E. and Collings, P. 2021. <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ajhb.23516">“All the problems in the community are multifaceted and related to each other”: Inuit concerns in an era of climate change</a> <i>American Journal of Human Biology</i> 33: e235316.<br><br>
 
@@ -214,7 +209,7 @@ model of stress and stress management in two Canadian Inuit communities.</a> <i>
 
       Morin, E., and Ready, E. 2013. <a href="https://link.springer.com/chapter/10.1007%2F978-94-007-6766-9_14">Foraging goals and transport decisions in Western Europe during the Middle and early Upper Paleolithic.</a> In: J.A. Clark and J. Speth, Eds., Zooarchaeology and modern human origins: Human hunting behavior during the later Pleistocene. Vertebrate Paleobiology and Paleoanthropology Series, pp. 227–269. Springer, Dordrecht.<br><br>
 
-      Ready, E. 2010. <a href="http://vav.library.utoronto.ca/index.php/vav/article/view/3421">Neandertal Man the hunter: A history of Neandertal subsistence.</a> <i>Vis-&agrave-vis: Explorations in Anthropology</i> 10: 58–80. <br><br>
+      Ready, E. 2010. <a href="http://vav.library.utoronto.ca/index.php/vav/article/view/3421">Neandertal Man the hunter: A history of Neandertal subsistence.</a> <i>Vis-&agrave;-vis: Explorations in Anthropology</i> 10: 58–80. <br><br>
     </p>
 
 <p class="w3-opacity w3-center"><i>Other projects and collaborations</i></p>
@@ -244,17 +239,15 @@ Pisor, A.  et al. 2022. <a href="Pisoretal2022_NCC_OA.pdf">Effective climate-cha
 </p>
     </div>
   </div> 
-</div>
 
 <!-- End Page Content -->
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-large w3-center w3-black w3-xlarge" id="Contact">
-  <a href="https://twitter.com/elspethready" style="text-decoration: none"<i class="fa fa-twitter w3-hover-opacity"></i></a>
-  <!--<a href="https://www.linkedin.com/in/elspeth-ready-068a96bb" style="text-decoration: none" <i class="fa fa-linkedin w3-hover-opacity"></i></a><-->
-  <a href="https://github.com/elspethr" style="text-decoration: none" <i class="fa fa-github w3-hover-opacity"></i></a><br>
+  <a href="https://twitter.com/elspethready" style="text-decoration: none" class="fa fa-twitter w3-hover-opacity"></a>
+  <a href="https://github.com/elspethr" style="text-decoration: none" class="fa fa-github w3-hover-opacity"></a><br>
   <div class="w3-center w3-medium w3-margin-bottom">
-    <i class="fa fa-envelope" style="width:30px"> </i>elspeth_ready@eva.mpg.de
+  <a href="mailto:elspeth_ready@eva.mpg.de" style="text-decoration: none" class="w3-hover-opacity">elspeth_ready@eva.mpg.de</a>
   </div>
 </footer>
 
@@ -279,5 +272,25 @@ window.onclick = function(event) {
 }
 </script>
 
+<script>
+// Smooth scrolling when clicking an anchor link
+// Source: https://stackoverflow.com/a/7717572/4027098
+document.addEventListener('DOMContentLoaded', function () {
+  
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: 'smooth',
+        });
+      }
+    });
+  });
+});
+  </script>
+  
 </body>
 </html>
